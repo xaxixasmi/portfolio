@@ -8,6 +8,7 @@ body {
 @font-face {
             font-family: 'Ethereal';
             src: url('path/to/ethereal.woff') format('woff');
+}
     
 @keyframes backgroundAnimation {
     0% {
