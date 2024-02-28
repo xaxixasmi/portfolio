@@ -13,7 +13,9 @@ body{
     .gallery-container {
         text-align: center;
     }
-
+@font-face {
+            font-family: 'Ethereal';
+            src: url('path/to/ethereal.woff') format('woff');
     .gallery{
         margin: 10px;
         border: 2px solid blue; /* Add border to the gallery items */
