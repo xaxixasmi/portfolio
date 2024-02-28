@@ -133,7 +133,12 @@ body {
         max-width: none; 
         text-align: center; 
     }
-
+    #pdf-button{
+        font-size: 15px;
+    }
+    .more-button{
+        font-size: 15px;
+    }
     .blue-text {
     font-size: 5vw; 
     margin: auto;
