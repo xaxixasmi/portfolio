@@ -4,11 +4,6 @@ body {
     background-color: blue;
     animation: backgroundAnimation 10s ease infinite alternate; /* Adjust duration and animation properties */
 }
-
-@font-face {
-            font-family: 'Ethereal';
-            src: url('path/to/ethereal.woff') format('woff');
-}
     
 @keyframes backgroundAnimation {
     0% {
