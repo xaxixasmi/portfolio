@@ -1,9 +1,10 @@
-function changeBackground(imagePath) {
-    document.body.style.backgroundImage = `url('${imagePath}')`;
-    document.body.style.backgroundSize = 'cover'; // Adjust as needed
-}
-
-function restoreBackground() {
-    document.body.style.backgroundImage = 'none';
-    document.body.style.backgroundColor = 'blue'; // Set your default background color
-}
+window.addEventListener('scroll', function() {
+    var header = document.getElementById('header');
+    var distanceY = window.pageYOffset || document.documentElement.scrollTop;
+    if (distanceY > 0) {
+      header.style.height = '0';
+    } else {
+      header.style.height = '100vh';
+    }
+  });
+  
